@@ -15,12 +15,15 @@ as long as we do not pick a perfectly vertical line, if we intersect two points 
 **Inverse**: The inverse of an elliptic curve point is the negative of the y value of the pair.
 
 One can derive how to compute P₃ = (x₃, y₃) where P₃ = P₁ ⊕ P₂ using the following formula.
+
 $$
 \lambda = \frac{y_2-y_1}{x_2-x_1}
 \newline
 x_3 = \lambda^2-x_1-x_2;\space y_3=\lambda\left(x_1-x_2\right) -y_1
 $$
+
 It has associativity:
+
 $$
 \left(a+b\right)P +cP = aP+\left(b+c\right)P
 $$
